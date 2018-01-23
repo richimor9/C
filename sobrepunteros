@@ -1,0 +1,21 @@
+Los punteros son variables que contienen la direccion de otra variable.
+Usos:
+	Ayuda a que una funcion devuelva mas de un valor.
+	ej. que una funcion que devuelva un vector de enteros
+	y en esa funcion mandamos la direccion del primer
+	elemento a la funcion prinicipal y apartir de eso
+	imprimimos todos los valores del vector.
+	
+	Mejor uso de la memoria dinamica. Ayuda a ahorrar memoria.
+
+	Declaracion:
+			int *p
+	*-> indica al compilador que la variable es un puntero.
+
+	Ej. para mandar a impresion el valor entero, hacia el cual
+	a punta "p", seria asi:
+	printf("%d",*p)
+
+	Ahora bien, para guardar la dirección de alguna variable,
+	en un puntero se tiene &->Operador de Dirección.
+	P1=&a;  
