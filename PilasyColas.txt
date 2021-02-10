@@ -1,0 +1,14 @@
+No usan punteros, son como arreglos
+Stack es mas rapido que queue
+Stacks pueden trabajar con cualquier tipo de dato, no esta restringida a usar structs con pointers
+
+Linked list 
+it is a number of elements which may be stored in non-adjacent blocks of memory, with pointers in each element forming links
+to at least ine adjacent element.
+
+Queue
+FIFO
+First in first out
+
+typedef int(*PFI)(int)
+PFI is a pointer to a function that takes one int argument and returns an int value
